@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 04-Feb-2023, 12:24:59 am
+    Author     : arun kumar
+*/
+html{
+    height:100%;
+    
+   
+}
+
+#balance{
+/* background-color:  #47B5FF; */
+background-color: #0D4C92;
+}
+#balancerow{
+  border:black 2px;
+  /*margin-top: 2%;*/
+  border-radius: 10%;
+  /*padding-top: 50px;*/
+}
+.headlines{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin: 10px;
+}
+#name{
+    margin-top: 30px; 
+}
+#balance{
+ /*border:black 2px;*/
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+  float: left;
+  margin-left: 15px;
+  
+}
+#main-bg{
+    margin-top: 4%;
+    padding-top: 100px;
+}
+#mainscreen{
+  background-color:#BCCEF8;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#sidenav{
+    float:left;
+    padding-left:5px;
+}
+.sidenav-list{
+    background-color:#1363DF;
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px;
+    border: 2px black;
+    border-radius: 5px;
+}
+.sidenav-list:hover,active{
+    background-color: #00bdfe;
+}
+.btns a:active{
+     background-color: #00bdfe;
+}
+#logoutbtn:hover{
+    font-size: medium;
+}
+
+.screen-content{
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+    color: white;
+    margin-top: 4%;
+    margin-left: 100px;
+}
+
+#screen-lines{
+    font-family: 'Roboto', sans-serif;
+    color:#0D4C92;
+    padding-top:20px;
+}
