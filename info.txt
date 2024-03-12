@@ -1,0 +1,37 @@
+admin:
+username:admin
+password:admin
+
+user example:
+username:MYS906641
+password:123
+
+db name:satm
+
+
+user:
+register
+login
+deposit
+withdraw
+transfer
+block account
+set withdrawal limit per day
+ministatement
+update password
+
+admin:
+approve user
+search users
+block/unblock users
+set transaction limit per day
+see all transactions
+
+*username for user will be Random number genrated by application
+
+built with:
+html,css,bootstrap,js,jquery,JAVA servlet,JSP
+netbeans 16
+java 17
+glassfish server
+mysql j connector
